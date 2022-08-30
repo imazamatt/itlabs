@@ -1,0 +1,15 @@
+.navbar {
+  @apply flex;
+
+  &__list {
+    @apply flex;
+  }
+
+  &__item:not(:last-child) {
+    @apply mr-4;
+  }
+
+  &__divider {
+    @apply mx-4;
+  }
+}

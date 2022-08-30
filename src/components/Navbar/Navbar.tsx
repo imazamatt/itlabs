@@ -39,13 +39,17 @@ function Navbar() {
         ))}
       </ul>
 
-      <ul className={'call'}>
-        <li className={'call__item'}>
-          <Link href={'tel:998981219808'}>
-            <a className={'call__link'}>Call</a>
-          </Link>
-        </li>
-      </ul>
+      <div className={'navbar__divider'} />
+
+      <div className={'calling'}>
+        <ul className={'calling__list'}>
+          <li className={'calling__item'}>
+            <Link href={'tel:998981219808'}>
+              <a className={'calling__link'}>Call</a>
+            </Link>
+          </li>
+        </ul>
+      </div>
     </nav>
   )
 }
